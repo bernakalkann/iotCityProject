@@ -133,3 +133,9 @@ Uygulamanın çalışması için `paho-mqtt` ve canlı grafiği çizdiren `matpl
    - **Görsel Alarm Durumu:** Simüle edilen sıcaklık verisi 35°C kritik eşiğini geçtiğinde, grafik başlığı kırmızı ve kalın bir **"⚠️ KRİTİK EŞİK AŞILDI!"** uyarısına dönüşür ve sıcaklık grafik panelinin arka planı hafif kırmızı renge boyanarak görsel bir alarm tetiklenir. Normal duruma dönüldüğünde grafik eski haline kavuşur.
 3. Aynı zamanda AWS IoT Core ve AWS Lambda entegrasyonunuz aktif durumdaysa, veriler AWS tarafına da eş zamanlı olarak gönderilmeye devam edecektir.
 
+### Adım 4.4: Canlı Grafik Arayüzü Ekran Görüntüsü
+Aşağıda, uygulamanın terminal çıktısı ve buna bağlı olarak canlı olarak çizilen sıcaklık-nem grafiğinin ekran görüntüsü yer almaktadır:
+
+![Canlı Grafik İzleme Paneli](dashboard.png)
+
+
